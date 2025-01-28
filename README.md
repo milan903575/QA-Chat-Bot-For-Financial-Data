@@ -12,7 +12,7 @@ The project includes:
 ---
 
 ## **Features**
-- Supports **PDF** and **Excel** file uploads for financial data.
+- Supports **PDF** file uploads for financial data.
 - Automatically processes and stores data in a Pinecone vector database.
 - Uses **RAG** for generating accurate, natural language responses to user queries.
 - Includes a separate preprocessing script for PDFs with complex layouts.
