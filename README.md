@@ -60,7 +60,7 @@ pip install -r requirements.txt
      - **Cloud Provider**: `AWS`
      - **Region**: `us-east-1`
 
-Update your Pinecone API key in the `chatbot.py` file:
+Update your Pinecone API key in the `chatbot_streamlit.py` file:
 ```python
 pc = Pinecone(api_key="your-api-key")
 ```
@@ -68,7 +68,7 @@ pc = Pinecone(api_key="your-api-key")
 ### **4. Streamlit Frontend**
 1. **Run the Streamlit App**:
    ```bash
-   streamlit run chatbot.py
+   streamlit run chatbotstreamlit.py
    ```
 2. **Access the App**:
    - Open the link displayed in your terminal (e.g., `http://localhost:8501`).
@@ -87,7 +87,7 @@ pc = Pinecone(api_key="your-api-key")
   - The chatbot retrieves relevant data and generates a natural language response.
 
 ### **2. Backend: RAG Model in Colab**
-- Use the provided Colab notebook (`ChatBot.ipynb`) for backend testing:
+- Use the provided Colab notebook (`ChatBot_collab.ipynb`) for backend testing:
   - **Data Preparation**: Generate embeddings for P&L data.
   - **Store in Pinecone**: Upload embeddings for similarity-based retrieval.
   - **Query and Answer**: Test predefined queries.
