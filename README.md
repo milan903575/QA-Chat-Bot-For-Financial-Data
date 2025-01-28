@@ -87,7 +87,7 @@ pc = Pinecone(api_key="your-api-key")
   - The chatbot retrieves relevant data and generates a natural language response.
 
 ### **2. Backend: RAG Model in Colab**
-- Use the provided Colab notebook (`rag_model.ipynb`) for backend testing:
+- Use the provided Colab notebook (`ChatBot.ipynb`) for backend testing:
   - **Data Preparation**: Generate embeddings for P&L data.
   - **Store in Pinecone**: Upload embeddings for similarity-based retrieval.
   - **Query and Answer**: Test predefined queries.
@@ -99,7 +99,7 @@ pc = Pinecone(api_key="your-api-key")
   - Saves the processed P&L table as a CSV.
 
 ```bash
-python test.py
+python preprocessing.py
 ```
 
 ---
@@ -118,7 +118,7 @@ python test.py
 
 ### **2. Frontend (Streamlit)**
 1. **File Upload**:
-   - Accepts PDF and Excel files.
+   - Accepts PDF files.
 2. **Query Input**:
    - Allows users to enter financial queries.
 3. **Real-Time Response**:
@@ -182,5 +182,3 @@ python test.py
 
 ---
 
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for details.
