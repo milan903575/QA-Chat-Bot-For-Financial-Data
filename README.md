@@ -35,8 +35,9 @@ The project includes:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/financial-chatbot.git
-cd financial-chatbot
+git clone https://github.com/milan903575/QA-Chat-Bot-For-Financial-Data.git
+git clone .git
+cd QA-Chat-Bot-For-Financial-Data
 ```
 
 ### **2. Install Dependencies**
